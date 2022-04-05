@@ -2,8 +2,8 @@ const data = require('./data');
 
 const { animals, employees, prices, hours } = data;
 
-// function animalsByIds(...ids) {
-// }
+function animalsByIds(...ids) {
+}
 
 // function animalsOlderThan(animal, age) {
 // }
@@ -49,7 +49,7 @@ module.exports = {
   // schedule,
   // animalCount,
   // animalMap,
-  // animalsByIds,
+  animalsByIds,
   // employeeByName,
   // employeeCoverage,
   // addEmployee,
