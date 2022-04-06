@@ -6,8 +6,8 @@ function animalsByIds(...ids) {
   return animals.filter((animal) => ids.includes(animal.id))
 }
 
-// function animalsOlderThan(animal, age) {
-// }
+function animalsOlderThan(animal, age) {
+}
 
 // function employeeByName(employeeName) {
 // }
@@ -55,7 +55,7 @@ module.exports = {
   // employeeCoverage,
   // addEmployee,
   // isManager,
-  // animalsOlderThan,
+  animalsOlderThan,
   // oldestFromFirstSpecies,
   // increasePrices,
   // createEmployee,
