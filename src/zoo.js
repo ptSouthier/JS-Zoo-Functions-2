@@ -37,8 +37,8 @@ function addEmployee(id, firstName, lastName, managers = [], responsibleFor = []
   employees.push(newEmployee);
 }
 
-// function animalCount(species) {
-// }
+function animalCount(species) {
+}
 
 // function entryCalculator(entrants = 0) {
 // }
@@ -64,7 +64,7 @@ function addEmployee(id, firstName, lastName, managers = [], responsibleFor = []
 module.exports = {
   // entryCalculator,
   // schedule,
-  // animalCount,
+  animalCount,
   // animalMap,
   animalsByIds,
   employeeByName,
