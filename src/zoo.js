@@ -33,8 +33,8 @@ function isManager(id) {
   return employees.some((currEmployee) => currEmployee.managers.includes(id))
 }
 
-// function addEmployee(id, firstName, lastName, managers, responsibleFor) {
-// }
+function addEmployee(id, firstName, lastName, managers, responsibleFor) {
+}
 
 // function animalCount(species) {
 // }
@@ -68,7 +68,7 @@ module.exports = {
   animalsByIds,
   employeeByName,
   // employeeCoverage,
-  // addEmployee,
+  addEmployee,
   isManager,
   animalsOlderThan,
   // oldestFromFirstSpecies,
