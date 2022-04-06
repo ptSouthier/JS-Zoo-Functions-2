@@ -50,7 +50,7 @@ function animalCount(species) {
     animals.map((animal) => animalsObj[animal.name] = animal.residents.length);
     return animalsObj;
   }
-  const animal = animals.find((animal) => animal.name === species).residents;
+  const animal = animals.find((currAnimal) => currAnimal.name === species).residents;
   return animal.length;
 }
 
