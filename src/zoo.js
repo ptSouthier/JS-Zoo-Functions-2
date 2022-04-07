@@ -63,9 +63,9 @@ function entryCalculator(entrants = 0) {
   return result;
 }
 
-// function animalMap(options) {
-//   // seu código aqui
-// }
+function animalMap(options) {
+  // seu código aqui
+}
 
 // function schedule(dayName) {
 // }
@@ -85,7 +85,7 @@ module.exports = {
   entryCalculator,
   // schedule,
   animalCount,
-  // animalMap,
+  animalMap,
   animalsByIds,
   employeeByName,
   // employeeCoverage,
