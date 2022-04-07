@@ -54,8 +54,8 @@ function animalCount(species) {
   return animal.length;
 }
 
-// function entryCalculator(entrants = 0) {
-// }
+function entryCalculator(entrants = 0) {
+}
 
 // function animalMap(options) {
 //   // seu código aqui
@@ -76,7 +76,7 @@ function animalCount(species) {
 // console.log(employeeCoverage());
 
 module.exports = {
-  // entryCalculator,
+  entryCalculator,
   // schedule,
   animalCount,
   // animalMap,
